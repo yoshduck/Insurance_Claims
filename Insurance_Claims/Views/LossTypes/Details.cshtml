@@ -1,0 +1,74 @@
+﻿@model Insurance_Claims.LossType
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details of LossType</h2>
+
+<div>
+    <h4>LossType</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LossTypeCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LossTypeCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LossTypeDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LossTypeDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastUpdatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastUpdatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastUpdatedId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastUpdatedId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    
+    @Html.ActionLink("Back to List of LossType", "Index")
+</p>

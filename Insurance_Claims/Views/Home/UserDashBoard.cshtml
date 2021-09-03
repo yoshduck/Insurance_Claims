@@ -1,0 +1,23 @@
+﻿@model Insurance_Claims.User
+
+@{
+    ViewBag.Title = "UserDashBoard";
+}
+
+<fieldset>
+
+    <legend> User DashBoard </legend>
+
+
+    @if (Session["UserName"] != null)
+    {
+        <text> Welcome @Session["UserName"].ToString() </text>
+    }
+
+
+
+</fieldset>
+
+
+
+
